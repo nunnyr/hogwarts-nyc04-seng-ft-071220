@@ -45,6 +45,8 @@ Importing relative images in React can be tricky. Here is an example:
 render(){
   let pigImage = require('../hog-imgs/piggy_smalls.jpg') //how can we dynamically generate the filename?
   return <img src={pigImage} />
+
+
 }
 
 ```
